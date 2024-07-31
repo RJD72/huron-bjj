@@ -24,63 +24,108 @@
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid mx-3">
-        <a class="navbar-brand" href="index.html">
-          <img src="/assets/thumbnail_logo.png" alt="" class="img-fluid logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="schedule.html">Schedule</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Programs
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+        <div class="row container-fluid">
+          <div class="col-12 d-flex justify-content-center">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="/assets/thumbnail_logo.png"
+                alt=""
+                class="img-fluid logo"
+              />
+              <h3 class="">HuronBJJ</h3>
+            </a>
+            <button
+              class="navbar-toggler ms-auto"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="col-12 d-flex justify-content-center container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-uppercase"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="schedule.html"
+                    >Schedule</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="schedule.html"
+                    >Coaches</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-uppercase"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Programs
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-uppercase" href="#"
+                        >Action</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-uppercase" href="#"
+                        >Another action</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item text-uppercase" href="#"
+                        >Something else here</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="/contact.html"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-uppercase"
+                    href="https://valor-bjj.gymdesk.com/login"
+                    >Sponsors</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-uppercase"
+                    href="https://valor-bjj.gymdesk.com/signup"
+                    >Sign Up</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-uppercase"
+                    href="https://valor-bjj.gymdesk.com/login"
+                    >Log In</a
+                  >
                 </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://valor-bjj.gymdesk.com/signup"
-                >Sign Up</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://valor-bjj.gymdesk.com/login"
-                >Log In</a
-              >
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -88,15 +133,23 @@
     <!-- Main -->
     <main class="container-fluid">
       <div class="row g-3 hero-wrapper">
-        <div class="col-lg-4 img-wrapper">
+        <div class="col-md-4 img-wrapper">
           <img src="/assets/hero.avif" alt="" class="img-fluid" />
+          <div class="text-overlay">Coaches</div>
         </div>
-        <div class="col-lg-4 img-wrapper">
-          <img src="/assets/hero2.avif" alt="" class="img-fluid" />
+        <div class="col-md-4 img-wrapper">
+          <a href="https://valor-bjj.gymdesk.com/signup">
+            <img src="/assets/hero2.avif" alt="" class="img-fluid" />
+            <div class="text-overlay">Sign Up</div>
+          </a>
         </div>
-        <div class="col-lg-4 img-wrapper">
+        <div class="col-md-4 img-wrapper">
           <img src="/assets/hero3.avif" alt="" class="img-fluid" />
+          <div class="text-overlay">About</div>
         </div>
+      </div>
+      <div class="my-5">
+        <img src="/assets/inguard.jpg" alt="" class="img-fluid w-100" />
       </div>
     </main>
 

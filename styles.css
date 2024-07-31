@@ -1,5 +1,14 @@
 .logo {
-  width: 85px;
+  width: 75px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand h3 {
+  margin-left: 8px;
 }
 
 .hero-wrapper {
@@ -9,13 +18,16 @@
 }
 
 .img-wrapper img {
-  display: block;
   width: 100%;
-  height: auto;
 }
 
 .img-wrapper {
   overflow: hidden;
+  position: relative;
+}
+
+.img-wrapper:hover {
+  cursor: pointer;
 }
 
 .hero-wrapper img {
@@ -26,6 +38,20 @@
   transform: scale(1.1);
 }
 
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Schedule */
 .main {
   margin-top: 100px;
 }
