@@ -34,7 +34,11 @@
   margin-bottom: 50px;
 }
 
-iframe {
+.schedule iframe {
   height: 800px !important;
   margin-bottom: 100px;
+}
+
+.contact-form iframe {
+  height: 1500px !important;
 }
