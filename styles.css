@@ -1,0 +1,40 @@
+.logo {
+  width: 85px;
+}
+
+.hero-wrapper {
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 25px;
+}
+
+.img-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-wrapper {
+  overflow: hidden;
+}
+
+.hero-wrapper img {
+  transition: transform 1s ease;
+}
+
+.hero-wrapper img:hover {
+  transform: scale(1.1);
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.main h1 {
+  margin-bottom: 50px;
+}
+
+iframe {
+  height: 800px !important;
+  margin-bottom: 100px;
+}
