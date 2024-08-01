@@ -84,6 +84,11 @@ div a .join-now-btn:hover {
   margin-bottom: 100px;
 }
 
+/* Coaches */
+p.coaches-profile {
+  line-height: 1.5;
+}
+
 /* Contact */
 .contact-form iframe {
   height: 1500px !important;
