@@ -20,6 +20,15 @@ article {
   margin-left: 8px;
 }
 
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link .btn {
+  margin: 0; /* Remove any margin that might affect the centering */
+}
+
 .hero-wrapper {
   width: 100%;
   margin-inline: auto;
@@ -54,11 +63,11 @@ article {
 }
 
 .join-now-btn {
-  background-color: #00c500;
+  background-color: #02b302;
 }
 
 div a .join-now-btn:hover {
-  background-color: #00d700;
+  background-color: #00ca00;
 }
 
 /* Schedule */
