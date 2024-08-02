@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   background-color: #f8f8f8;
   color: #333;
@@ -58,13 +64,6 @@ div a .join-now-btn:hover {
 }
 
 /* Schedule */
-.main {
-  margin-top: 100px;
-}
-
-.main h1 {
-  margin-bottom: 50px;
-}
 
 .schedule iframe {
   height: 800px !important;
