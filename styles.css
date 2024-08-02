@@ -11,22 +11,9 @@ article {
   width: 75px;
 }
 
-.navbar-brand {
-  display: flex;
-  align-items: center;
-}
-
 .navbar-brand h3 {
   margin-left: 8px;
-}
-
-.nav-item {
-  display: flex;
-  align-items: center;
-}
-
-.nav-link .btn {
-  margin: 0; /* Remove any margin that might affect the centering */
+  margin-top: 10px;
 }
 
 .hero-wrapper {
@@ -92,4 +79,35 @@ p.coaches-profile {
 /* Contact */
 .contact-form iframe {
   height: 1500px !important;
+}
+
+/* Testimonials */
+.review {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 90%;
+  max-width: 600px;
+}
+.review-header {
+  display: flex;
+  align-items: center;
+}
+.reviewer-pic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.reviewer-info h4 {
+  margin: 0;
+}
+.review-rating {
+  color: #ffc107; /* Gold color for stars */
+  font-size: 1.5em; /* Adjust size as needed */
+}
+.review-text {
+  margin-top: 10px;
 }
