@@ -36,6 +36,21 @@
       .sponsor-logos h4 {
         margin-bottom: 0;
       }
+
+      a h5:hover {
+        text-decoration: underline;
+        color: blue;
+      }
+
+      .custom-width {
+        width: 90%; /* Default for extra small screens (<576px) */
+      }
+
+      @media (min-width: 992px) {
+        .custom-width {
+          width: 50%; /* Apply width for medium screens (≥768px) */
+        }
+      }
     </style>
   </head>
   <body>
@@ -188,60 +203,169 @@
     </nav>
 
     <!-- Main -->
+
+    <h1 class="text-center my-5">Our Sponsorship Team</h1>
+    <div class="my-5 pb-5 mx-auto custom-width">
+      <p>
+        We want to extend our heartfelt thanks to our incredible 2024 sponsors!
+        Your support is the backbone of our academy, making a real difference in
+        the lives of our athletes and community.
+      </p>
+
+      <p>
+        A portion of your generous sponsorship helps our competitive team travel
+        across North America to compete, offering them invaluable experience and
+        the chance to showcase their skills on a larger stage. This opportunity
+        is crucial for their growth and success in the sport.
+      </p>
+
+      <p>
+        We are proud to recognize our 2024 Competitive Team Sponsors: Sky Ranch,
+        Boston Pizza Goderich, The Cannabis Guys Goderich, Kwik Bite / Shell
+        Goderich, and J&J Welding and Repair.
+      </p>
+
+      <p>
+        Additionally, your contributions fuel our Youth Mentorship Fund,
+        ensuring that every child has the chance to train, regardless of their
+        financial situation. A special thank you to Compass Minerals Goderich
+        and our private sponsor for making this possible.
+      </p>
+
+      <p>
+        You're not just sponsoring a gym; you're empowering young athletes to
+        reach their full potential and creating lifelong opportunities. Thank
+        you for being an essential part of our journey!
+      </p>
+    </div>
     <main class="container-fluid w-75">
-      <h1 class="text-center my-5">Sponsors</h1>
-      <section>
+      <section class="">
         <div class="row sponsor-logos-wrapper g-3">
           <div class="sponsor-logos col-md-4">
-            <img
-              src="./assets/sponsor-logos/boston-pizza.png"
-              alt=""
-              class="img-fluid"
-            />
-            <h5 class="">Boston Pizza</h5>
+            <a
+              href="https://bostonpizza.com/goderich"
+              target="_blank"
+              class="nav-link"
+            >
+              <img
+                src="./assets/sponsor-logos/boston-pizza.png"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+            <a
+              href="https://bostonpizza.com/goderich"
+              target="_blank"
+              class="nav-link"
+            >
+              <h5 class="">Boston Pizza</h5>
+            </a>
           </div>
 
           <div class="sponsor-logos col-md-4">
-            <img
-              src="./assets/sponsor-logos/jandj-welding.webp"
-              alt=""
-              class="img-fluid"
-            />
-            <h5 class="">J&amp;J Welding and Repair</h5>
+            <a
+              href="https://www.facebook.com/jjweldingandrepair/"
+              target="_blank"
+              class="nav-link"
+            >
+              <img
+                src="./assets/sponsor-logos/jandj-welding.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/jjweldingandrepair/"
+              target="_blank"
+              class="nav-link"
+            >
+              <h5 class="">J&amp;J Welding and Repair</h5>
+            </a>
           </div>
+
           <div class="sponsor-logos col-md-4">
-            <img
-              src="./assets/sponsor-logos/kwikbite.png"
-              alt=""
-              class="img-fluid"
-            />
-            <h5 class="">Kwik Bite</h5>
+            <a
+              href="https://www.facebook.com/kwikbite.takeout/"
+              target="_blank"
+              class="nav-link"
+            >
+              <img
+                src="./assets/sponsor-logos/kwikbite.png"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/kwikbite.takeout/"
+              target="_blank"
+              class="nav-link"
+            >
+              <h5 class="">Kwik Bite</h5>
+            </a>
           </div>
 
           <div class="row sponsor-logos-wrapper my-5 g-3">
             <div class="sponsor-logos col-md-4">
-              <img
-                src="./assets/sponsor-logos/sky-ranch.jpg"
-                alt=""
-                class="img-fluid"
-              />
-              <h5>Sky Ranch</h5>
+              <a
+                href="https://www.facebook.com/skyranchdrivein/"
+                target="_blank"
+                class="nav-link"
+              >
+                <img
+                  src="./assets/sponsor-logos/sky-ranch.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+              <a
+                href="https://www.facebook.com/skyranchdrivein/"
+                target="_blank"
+                class="nav-link"
+              >
+                <h5>Sky Ranch</h5>
+              </a>
             </div>
+
             <div class="sponsor-logos col-md-4">
-              <img
-                src="./assets/sponsor-logos/the_cannabis_guys.webp"
-                alt=""
-                class="img-fluid"
-              />
-              <h5>The Cannabis Guys</h5>
+              <a
+                href="https://thecannabisguys.ca/"
+                target="_blank"
+                class="nav-link"
+              >
+                <img
+                  src="./assets/sponsor-logos/the_cannabis_guys.webp"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+              <a
+                href="https://thecannabisguys.ca/"
+                target="_blank"
+                class="nav-link"
+              >
+                <h5>The Cannabis Guys</h5>
+              </a>
             </div>
+
             <div class="sponsor-logos col-md-4">
-              <img
-                src="./assets/sponsor-logos/compass-minerals.webp"
-                alt=""
-                class="img-fluid"
-              />
-              <h5>Compass Minerals</h5>
+              <a
+                href="https://www.compassminerals.com/"
+                target="_blank"
+                class="nav-link"
+              >
+                <img
+                  src="./assets/sponsor-logos/compass-minerals.webp"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+              <a
+                href="https://www.compassminerals.com/"
+                target="_blank"
+                class="nav-link"
+              >
+                <h5>Compass Minerals</h5>
+              </a>
             </div>
           </div>
         </div>
