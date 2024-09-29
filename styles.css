@@ -9,6 +9,20 @@ html {
   color: #333;
 }
 
+ul {
+  list-style-type: none; /* Remove default list style */
+  padding-left: 0; /* Remove default padding */
+}
+
+/* Add dash before each list item */
+/* li::before {
+  content: " ";
+} */
+
+/* ul li.nav-item::before {
+  content: "";
+} */
+
 article {
   overflow: hidden;
 }

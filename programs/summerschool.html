@@ -21,6 +21,10 @@
 
     <link rel="stylesheet" href="../styles.css" />
     <style>
+      .caption {
+        width: 75%;
+      }
+
       .btn:focus,
       .btn:active,
       button:focus,
@@ -40,7 +44,13 @@
 
       /* Default styling for larger screens */
       .move-up {
-        margin-top: -50px;
+        margin-top: -60px;
+      }
+
+      @media (max-width: 768px) {
+        .caption {
+          width: 100%;
+        }
       }
 
       /* Adjust for smaller screens */
@@ -203,6 +213,38 @@
 
     <!-- Main -->
     <main class="container mx-auto">
+      <h1 class="text-center my-5">Summer School</h1>
+
+      <article class="mx-auto caption">
+        <p>
+          Our Summer School Program is designed to provide a fun, active, and
+          educational experience for children of all ages during their summer
+          break. The program combines physical activities like jiu-jitsu,
+          outdoor sports, and games with creative and educational opportunities
+          such as arts and crafts, problem-solving activities, and community
+          engagement. With the perfect blend of indoor and outdoor experiences,
+          children not only build their fitness and coordination but also
+          develop critical thinking and social skills.
+        </p>
+
+        <p>
+          The program is guided by our dedicated and experienced instructors who
+          ensure a safe, supportive, and energetic environment. Activities are
+          structured to engage students, foster teamwork, and inspire
+          creativity, allowing each child to grow both mentally and physically.
+          Our summer school includes field trips, visits from community figures
+          like local law enforcement, and opportunities for children to explore
+          their talents while making lasting friendships.
+        </p>
+
+        <p>
+          At our Summer School Program, we believe in creating memories that
+          children will cherish, all while encouraging them to lead active and
+          healthy lifestyles. Whether your child loves sports, art, or simply
+          making new friends, this program provides a diverse range of
+          activities that are both educational and fun.
+        </p>
+      </article>
       <div class="row">
         <div
           class="col-lg-3 col-md-6 col-sm-12 thumb"
@@ -214,11 +256,11 @@
             data-bs-toggle="modal"
             data-bs-target="#image-gallery"
             data-title=""
-            data-image="../assets/summerschool/summerschool1.avif"
+            data-image="../assets/summer_school/summer_school1.jpg"
           >
             <img
               class="img-thumbnail img-fluid mb-4"
-              src="../assets/summerschool/summerschool1.avif"
+              src="../assets/summer_school/summer_school1.jpg"
               alt="Another alt text"
             />
           </a>
@@ -228,11 +270,43 @@
             data-bs-toggle="modal"
             data-bs-target="#image-gallery"
             data-title=""
-            data-image="../assets/summerschool/summerschool5.avif"
+            data-image="../assets/summer_school/summer_school2.jpg"
           >
             <img
               class="img-thumbnail img-fluid"
-              src="../assets/summerschool/summerschool5.avif"
+              src="../assets/summer_school/summer_school2.jpg"
+              alt="Another alt text"
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 thumb">
+          <a
+            class="thumbnail"
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#image-gallery"
+            data-title=""
+            data-image="../assets/summer_school/summer_school3.jpg"
+          >
+            <img
+              class="img-thumbnail img-fluid mb-4"
+              src="../assets/summer_school/summer_school3.jpg"
+              alt="Another alt text"
+            />
+          </a>
+
+          <a
+            class="thumbnail"
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#image-gallery"
+            data-title=""
+            data-image="../assets/summer_school/summer_school8.jpg"
+          >
+            <img
+              class="img-thumbnail img-fluid"
+              src="../assets/summer_school/summer_school8.jpg"
               alt="Another alt text"
             />
           </a>
@@ -244,11 +318,26 @@
             data-bs-toggle="modal"
             data-bs-target="#image-gallery"
             data-title=""
-            data-image="../assets/summerschool/summerschool2.avif"
+            data-image="../assets/summer_school/summer_school4.jpg"
+          >
+            <img
+              class="img-thumbnail img-fluid mb-4"
+              src="../assets/summer_school/summer_school4.jpg"
+              alt="Another alt text"
+            />
+          </a>
+
+          <a
+            class="thumbnail"
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#image-gallery"
+            data-title=""
+            data-image="../assets/summer_school/summer_school7.jpg"
           >
             <img
               class="img-thumbnail img-fluid"
-              src="../assets/summerschool/summerschool2.avif"
+              src="../assets/summer_school/summer_school7.jpg"
               alt="Another alt text"
             />
           </a>
@@ -260,66 +349,35 @@
             data-bs-toggle="modal"
             data-bs-target="#image-gallery"
             data-title=""
-            data-image="../assets/summerschool/summerschool3.avif"
+            data-image="../assets/summer_school/summer_school5.jpg"
           >
             <img
-              class="img-thumbnail img-fluid"
-              src="../assets/summerschool/summerschool3.avif"
+              class="img-thumbnail img-fluid mb-4"
+              src="../assets/summer_school/summer_school5.jpg"
               alt="Another alt text"
             />
           </a>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 thumb">
+
           <a
             class="thumbnail"
             href="#"
             data-bs-toggle="modal"
             data-bs-target="#image-gallery"
             data-title=""
-            data-image="../assets/summerschool/summerschool4.avif"
+            data-image="../assets/summer_school/summer_school6.jpg"
           >
             <img
               class="img-thumbnail img-fluid"
-              src="../assets/summerschool/summerschool4.avif"
+              src="../assets/summer_school/summer_school6.jpg"
               alt="Another alt text"
             />
           </a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 thumb move-up">
-          <a
-            class="thumbnail"
-            href="#"
-            data-bs-toggle="modal"
-            data-bs-target="#image-gallery"
-            data-title=""
-            data-image="../assets/summerschool/summerschool4.avif"
-          >
-            <img
-              class="img-thumbnail img-fluid"
-              src="../assets/summerschool/summerschool4.avif"
-              alt="Another alt text"
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 thumb">
-          <a
-            class="thumbnail"
-            href="#"
-            data-bs-toggle="modal"
-            data-bs-target="#image-gallery"
-            data-title=""
-            data-image="../assets/summerschool/summerschool4.avif"
-          >
-            <img
-              class="img-thumbnail img-fluid"
-              src="../assets/summerschool/summerschool4.avif"
-              alt="Another alt text"
-            />
-          </a>
-        </div>
-      </div>
+      <!-- <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 thumb move-up"></div>
+        <div class="col-lg-3 col-md-6 col-sm-12 thumb"></div>
+      </div> -->
       <!-- Repeat other columns similarly -->
 
       <div
@@ -387,13 +445,19 @@
 
         <!-- Right -->
         <div class="d-flex justify-content-center">
-          <a href="" class="me-4 text-reset">
+          <a
+            href="https://www.facebook.com/huronbjj"
+            target="_blank"
+            class="me-4 text-reset"
+          >
             <i class="bi bi-facebook"></i>
           </a>
-          <a href="" class="me-4 text-reset">
-            <i class="bi bi-twitter"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
+
+          <a
+            href="https://www.instagram.com/huronbjj/"
+            target="_blank"
+            class="me-4 text-reset"
+          >
             <i class="bi bi-instagram"></i>
           </a>
         </div>
@@ -431,47 +495,66 @@
                 <a href="/schedule.html" class="text-reset">Schedule</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Vue</a>
+                <a href="/testimonials.html" class="text-reset">Testimonials</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Laravel</a>
+                <a href="/coaches.html" class="text-reset">Coaches</a>
               </p>
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4">Links</h6>
               <p>
-                <a href="#!" class="text-reset">Pricing</a>
+                <a href="/contact.html" class="text-reset">Contact</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Settings</a>
+                <a href="/sponsors.html" class="text-reset">Sponsors</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Orders</a>
+                <a
+                  href="https://valor-bjj.gymdesk.com/signup"
+                  class="text-reset"
+                  >Sign Up</a
+                >
               </p>
               <p>
-                <a href="#!" class="text-reset">Help</a>
+                <a
+                  href="https://valor-bjj.gymdesk.com/login"
+                  target="_blank"
+                  class="text-reset"
+                  >Member Log In</a
+                >
               </p>
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <div class="col-md- col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
-                <i class="bi bi-house-door-fill me-3"></i>199 Anglesea St,
-                Goderich, ON
+                <a
+                  href="https://www.google.ca/maps/place/199+Anglesea+St,+Goderich,+ON+N7A+0A1/@43.7488296,-81.704589,17z/data=!3m1!4b1!4m6!3m5!1s0x8828c32579f5d935:0x5fb6ce8640db2f9d!8m2!3d43.7488296!4d-81.7020141!16s%2Fg%2F11c43wwkmy?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                >
+                  <i class="bi bi-house-door-fill me-3"></i>199 Anglesea St,
+                  Goderich, ON
+                </a>
               </p>
               <p>
-                <i class="bi bi-envelope-fill me-3"></i>
-                huroncountybjj@gmail.com
+                <a href="mailto:huroncountybjj@gmail.com">
+                  <i class="bi bi-envelope-fill me-3"></i>
+                  huroncountybjj@gmail.com
+                </a>
               </p>
-              <p><i class="bi bi-phone-fill me-3"></i> 519-567-0094</p>
-              <p><i class="bi bi-phone-fill me-3"></i> + 01 234 567 89</p>
+              <p>
+                <a href="tel:1-519-567-0094">
+                  <i class="bi bi-phone-fill me-3"></i> 519-567-0094</a
+                >
+              </p>
             </div>
             <!-- Grid column -->
           </div>
@@ -485,8 +568,8 @@
         class="text-center p-4"
         style="background-color: rgba(0, 0, 0, 0.05)"
       >
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://huronbjj.com/"
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="mailto:huroncountybjj@gmail.com"
           >HuronBJJ.com</a
         >
       </div>
