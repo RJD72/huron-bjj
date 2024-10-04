@@ -11,7 +11,7 @@ html {
 
 ul {
   list-style-type: none; /* Remove default list style */
-  padding-left: 0; /* Remove default padding */
+  padding-left: 15px; /* Remove default padding */
 }
 
 /* Add dash before each list item */
@@ -123,4 +123,14 @@ p.coaches-profile {
 }
 .review-text {
   margin-top: 10px;
+}
+
+.join-us {
+  width: 100%;
+}
+
+@media (min-width: 999px) {
+  .join-us {
+    width: 50%;
+  }
 }
