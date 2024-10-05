@@ -14,15 +14,6 @@ ul {
   padding-left: 15px; /* Remove default padding */
 }
 
-/* Add dash before each list item */
-/* li::before {
-  content: " ";
-} */
-
-/* ul li.nav-item::before {
-  content: "";
-} */
-
 article {
   overflow: hidden;
 }
@@ -47,7 +38,6 @@ article {
 }
 
 .img-wrapper img {
-  width: 100%;
   transition: transform 1s ease;
 }
 
@@ -61,7 +51,7 @@ article {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #fff;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
