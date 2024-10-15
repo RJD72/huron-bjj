@@ -8,6 +8,12 @@ ul {
   padding-left: 15px; /* Remove default padding */
 }
 
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 article {
   overflow: hidden;
 }
@@ -62,7 +68,7 @@ div a .join-now-btn:hover {
 }
 
 /* Coaches */
-p.coaches-profile {
+.coaches-profile {
   line-height: 1.5;
 }
 
