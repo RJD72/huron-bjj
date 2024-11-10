@@ -22,8 +22,25 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <style>
+      .legend-container {
+        width: 60%;
+        margin: 0 auto;
+      }
+
+      .legend-container > ul > li {
+        margin-bottom: 10px;
+      }
+
+      span {
+        font-weight: bold;
+      }
+
+      ul > li {
+        line-height: 1.6;
+      }
+
       div.maonrails-schedule iframe {
-        height: 160vh !important;
+        min-height: 100vh !important;
       }
 
       .schedule {
@@ -35,9 +52,13 @@
           width: 100%;
         }
 
-        div.maonrails-schedule iframe {
-          height: 200vh !important;
+        .legend-container {
+          width: 100%;
         }
+
+        /* div.maonrails-schedule iframe {
+          height: 100vh !important;
+        } */
       }
     </style>
   </head>
@@ -199,7 +220,7 @@
     <!-- Main -->
     <main class="schedule container-fluid">
       <h1 class="text-center my-5 text-uppercase">Schedule</h1>
-      <section class="mb-5">
+      <section>
         <div
           class="maonrails-schedule"
           attr-gym="AwPmm"
@@ -207,6 +228,117 @@
           attr-program="all"
         ></div>
       </section>
+
+      <div class="legend-container mb-5">
+        <h4 class="mb-3">Legend</h4>
+        <ul>
+          <li>
+            <span>Intro to Jiu-Jitsu:</span> Start your Jiu-Jitsu journey with
+            our one-time, complimentary Intro class! This beginner-friendly
+            session introduces you to class structure, warm-ups, and essential
+            safety protocols. Pre-booking is required, so reach out today to
+            reserve your free intro. 
+          </li>
+          <li>
+            <span>Women’s Only:</span> Join a supportive, female-exclusive space
+            where women of all ages can begin or advance their Jiu-Jitsu
+            journey. This class encourages growth, skill-building, and
+            confidence in a fun, empowering environment.
+          </li>
+          <li>
+            <span>White Belts BJJ:</span> Perfect for beginners, this class
+            introduces the foundational moves and positions in Brazilian
+            Jiu-Jitsu, providing a solid groundwork for future techniques. Ideal
+            for all white belts.
+          </li>
+          <li>
+            <span>Advanced Jiu-Jitsu:</span> Dive deeper with advanced
+            techniques! This class is open to colored belts, encouraging
+            participants to refine their skills through complex positions and
+            drills alongside peers.
+          </li>
+          <li>
+            <span>Fundamentals:</span> Start here! The Fundamentals class is a
+            must for all new members and an essential refresher for seasoned
+            students. Build a strong base with key techniques for effective
+            progress.
+          </li>
+          <li>
+            <span>Little Ninjas (Ages 3-4):</span> Tiny martial artists get
+            their start here! The Little Ninjas program introduces children to
+            the basics of movement, coordination, and respect through
+            age-appropriate games and Jiu-Jitsu techniques, fostering a safe and
+            fun environment.
+          </li>
+          <li>
+            <span>Junior Youth BJJ (Ages 5-8)</span> Tailored for young kids,
+            these classes combine self-discipline, confidence-building, and the
+            excitement of learning new skills. Ideal for children eager to build
+            strength and focus in a supportive setting.
+          </li>
+          <li>
+            <span>Senior Youth BJJ (Ages 9-12):</span> With a focus on
+            self-confidence, discipline, and coordination, this class equips
+            older kids with executive functioning skills, social interaction,
+            and the benefits of fun and exercise.
+          </li>
+          <li>
+            <span>Teen BJJ:</span> Join the thrill of Teen BJJ! Teens have a
+            blast learning both the basics and exciting advanced techniques in a
+            welcoming, high-energy class that emphasizes self-confidence,
+            teamwork, and goal-setting.
+          </li>
+          <li>
+            <span>Teen/Senior Youth Advanced Gi BJJ (Invite Only):</span>
+            Designed for teens and senior youth ready to take on more complex
+            techniques and strategies in the Gi. This invite-only class
+            challenges participants to refine their skills at a higher level,
+            practicing with close guidance from coaches.
+          </li>
+          <li>
+            <span
+              >Teen Advanced Gi BJJ (Invite Only) - Mixed with Adult
+              Fundamentals:</span
+            >
+            A high-level, invite-only class for advanced teens. This session is
+            integrated with the Adult Fundamentals class, offering teens the
+            opportunity to train in a mixed-age setting while honing
+            foundational and advanced Gi techniques with adults, creating a
+            challenging and rewarding experience.
+          </li>
+          <li>
+            <span>No-Gi:</span> Experience the intensity of Jiu-Jitsu without
+            the traditional gi. No-Gi classes emphasize control, speed, and
+            grips suitable for gi-less practice.
+          </li>
+          <li>
+            <span>Judo/Wrestling for Jiu-Jitsu:</span> This hybrid class blends
+            the dynamic throws of Judo and the ground control of Wrestling,
+            creating a comprehensive approach for Jiu-Jitsu enthusiasts looking
+            to strengthen their standing game.
+          </li>
+          <li>
+            <span>Boxing Basics:</span> Perfect for beginners and seasoned
+            fighters alike, this class covers boxing fundamentals such as
+            stance, footwork, punches, and defensive movements. Ideal for
+            developing hand-eye coordination, fitness, and confidence.
+          </li>
+          <li>
+            <span>Adult No-Gi Takedowns (White Belt & Up):</span> Sharpen your
+            standing game with this takedown-focused class, where adults of all
+            levels (white belt and up) can practice No-Gi takedown techniques.
+            Learn and drill key movements for safely controlling opponents on
+            your feet, enhancing both confidence and agility in the stand-up
+            phase of Jiu-Jitsu.
+          </li>
+          <li>
+            <span>Open Mat/Rolls:</span> Open Mat is focused solely on free
+            rolling and sparring rounds, allowing you to put what you've learned
+            into practice with partners. Open to all levels from white belts
+            with two stripes and above, unless specifically invited by Shaun.
+          </li>
+        </ul>
+      </div>
     </main>
 
     <!-- Footer -->
