@@ -26,6 +26,10 @@ article {
   width: 300px;
 }
 
+.welcome-content-container {
+  width: 100%;
+}
+
 .navbar-brand h3 {
   margin-left: 8px;
   margin-top: 10px;
@@ -117,6 +121,13 @@ div a .join-now-btn:hover {
     height: 300px;
     object-fit: cover;
     object-position: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .welcome-content {
+    max-width: 50%;
+    margin: 5px auto;
   }
 }
 
