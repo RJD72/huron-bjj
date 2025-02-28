@@ -22,6 +22,10 @@ article {
   width: 75px;
 }
 
+.new-logo img {
+  width: 300px;
+}
+
 .navbar-brand h3 {
   margin-left: 8px;
   margin-top: 10px;
@@ -105,6 +109,15 @@ div a .join-now-btn:hover {
 
 .join-us {
   width: 100%;
+}
+
+@media (max-width: 576px) {
+  .hero-image-container img {
+    margin: 3px 0 !important; /* Removes any default margin */
+    height: 300px;
+    object-fit: cover;
+    object-position: left;
+  }
 }
 
 @media (min-width: 999px) {
