@@ -12,6 +12,8 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
 }
 
 article {
@@ -23,7 +25,9 @@ article {
 }
 
 .new-logo img.new-logo-image {
-  width: 150px;
+  width: 200px;
+  max-width: none;
+  height: auto;
 }
 
 .welcome-content-container {
